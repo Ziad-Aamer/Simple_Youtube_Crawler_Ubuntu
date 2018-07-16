@@ -1,0 +1,21 @@
+1. installing mysql:
+sudo apt-get update
+sudo apt-get install mysql-server
+
+2. create the database as follow
+create database youtube_crawler
+
+CREATE TABLE videos (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, 
+video_url VARCHAR(100),
+title VARCHAR(100),
+duration VARCHAR(100), 
+views VARCHAR(100),
+thumbnail_image VARCHAR(100),
+original_image VARCHAR(100));
+
+3. installing pip 
+sudo apt install python-pip  
+
+4. installing pymysql and requests
+sudo pip install PyMySQL  
+pip install requests 
