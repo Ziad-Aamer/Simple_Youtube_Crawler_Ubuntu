@@ -1,10 +1,11 @@
 # Simple Youtube Crawler
 
-this crawler uses Youtube APIs to get info about the videos 
-There are 3 types of requests ==> 
-1. get videos IDs by playlist id from Youtube API
-2. get videos info by videos ids 
-3. get channel uploaded videos list id by channel name
+This crawler uses Youtube APIs to get information about a Youtube playlist videos 
+
+### There are 3 types of requests : 
+* get videos IDs by playlist id from Youtube API
+* get videos info by videos ids 
+* get channel uploaded videos list id by channel name
 
 //
 using these requests we can handle the 2 types of formats:
