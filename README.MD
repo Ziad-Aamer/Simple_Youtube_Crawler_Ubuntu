@@ -21,12 +21,18 @@ using these requests we can handle the 2 types of formats:
 ## Design
 
 1. we have the YotubeAPI class where we have the requests to the youtube API
+
 2. DatabaseUtis where we interact with the database 
+
 3. the main where we run the program
+
 4. i am using dictionaries to compare between videos_saved in the database and the new ones
  this makes it more efficient to check whether items exist or not
+
 5. as Youtube requests are limited by 50 per requests, i need to recall the api to get the rest of videos so i am using list to extend it upon next requests 
+
 6. also handling many cases like the None value return where the views could be private or not available
+
 7. the 2 types of images are saved in the images folder 
 
 
