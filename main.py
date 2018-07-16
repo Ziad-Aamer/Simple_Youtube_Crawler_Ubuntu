@@ -7,9 +7,9 @@ import time
 from YoutubeAPI import YoutubeAPI
 from DatabaseUtils import DatabaseUtils
 
-playlist_url = "https://www.youtube.com/watch?v=ztiHRiFXtoc&list=PLvFsG9gYFxY_2tiOKgs7b2lSjMwR89ECb"
+playlist_url = "https://www.youtube.com/watch?v=vPszR0-vTqc&list=PLvFsG9gYFxY97JaF2PiBy5fjPy1zufrcF"
 channel_url = 'https://www.youtube.com/user/AsapSCIENCE/videos'
-playlist_id = 'PLJOckv2-qgSjnPNO9BlOb7LoI8mA9nQLK'
+playlist_id = 'PLvFsG9gYFxY97JaF2PiBy5fjPy1zufrcF'
 channel_name = 'AsapSCIENCE'
 
 #for the playlist format we use the playlist id, otherwise we use the channel name
